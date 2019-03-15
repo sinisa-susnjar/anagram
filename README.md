@@ -34,22 +34,20 @@ of the given languages to be used in real project work. It was more or less just
 funny little experiment, i.e. take the results with a grain of salt.
 
 There were a few noteworthy points during that exercise:
-	1) Python is a lot faster than Perl (what happened? Perl was supposed to be the
-	   go-to language for text processing?)
-	2) The compile time of C++ sucks - even for such a trivial program
-	3) Rust made great progress - both in terms of runtime and compile time performance
-	4) Although Perl 6 / Rakudo has made great progress to catch up in terms of performance
-	   in recent years and it is a beautyful language, the runtime is still abysmal
-	5) C for the win!
+* Python is a lot faster than Perl (what happened? Perl was supposed to be the go-to language for text 
+* The compile time of C++ sucks - even for such a trivial program
+* Rust made great progress - both in terms of runtime and compile time performance
+* Although Perl 6 / Rakudo has made great progress to catch up in terms of performance in recent years and it is a beautyful language, the runtime is still abysmal
+* C for the win!
 
 All examples were tested on Ubuntu 18.04, the used compilers / interpreters were:
-	C:      gcc 7.3.0 (uses glibc GHashTable and GArray)
-	C++:    clang++ 7.0.0
-	Rust:   rustc 1.35.0-nightly
-	D:      ldc2 1.15.0-beta1
-	Perl:   v5.26.1
-	Python: 3.6.7
-	Perl 6: 2018.12 / 6.d
+* C:      gcc 7.3.0 (uses glibc GHashTable and GArray)
+* C++:    clang++ 7.0.0
+* Rust:   rustc 1.35.0-nightly
+* D:      ldc2 1.15.0-beta1
+* Perl:   v5.26.1
+* Python: 3.6.7
+* Perl 6: 2018.12 / 6.d
 
 ## Runtimes
 	C:      0:00.32 real, 0.29 user, 0.02 sys
@@ -60,13 +58,13 @@ All examples were tested on Ubuntu 18.04, the used compilers / interpreters were
 	Perl 5: 0:01.59 real, 1.57 user, 0.01 sys
 	Perl 6: 0:43.54 real, 43.56 user, 0.12 sys
 
-1st: C
-2nd: C++
-3rd: Rust
-4th: D (ldc2)
-5th: Python
-6th: Perl 5
-7th: Perl 6
+* 1st: C
+* 2nd: C++
+* 3rd: Rust
+* 4th: D (ldc2)
+* 5th: Python
+* 6th: Perl 5
+* 7th: Perl 6
 
 ## Codesize in bytes (after stripping)
 	  10216 anagram.c.bin
@@ -74,10 +72,10 @@ All examples were tested on Ubuntu 18.04, the used compilers / interpreters were
 	 256336 anagram.rs.bin
 	1597840 anagram.d.bin
 
-1st: C
-2nd: C++
-3th: Rust
-4th: D (ldc2)
+* 1st: C
+* 2nd: C++
+* 3th: Rust
+* 4th: D (ldc2)
 
 ## Compile times
 	C   : 0:00.13 real, 0.11 user, 0.01 sys
@@ -85,10 +83,10 @@ All examples were tested on Ubuntu 18.04, the used compilers / interpreters were
 	C++ : 0:00.93 real, 0.89 user, 0.04 sys
 	D   : 0:02.57 real, 2.48 user, 0.08 sys
 
-1st: C
-2nd: Rust
-3rd: C++
-4th: D (ldc2)
+* 1st: C
+* 2nd: Rust
+* 3rd: C++
+* 4th: D (ldc2)
 
 ## Lines of code
 	10 anagram.p6
@@ -99,7 +97,7 @@ All examples were tested on Ubuntu 18.04, the used compilers / interpreters were
 	31 anagram.cc
 	43 anagram.c
 
-1st: Perl, Python, D
-2nd: Rust, C++
-3rd: C
+* 1st: Perl, Python, D
+* 2nd: Rust, C++
+* 3rd: C
 

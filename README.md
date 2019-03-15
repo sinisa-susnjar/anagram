@@ -34,7 +34,7 @@ of the given languages to be used in real project work. It was more or less just
 funny little experiment, i.e. take the results with a grain of salt.
 
 There were a few noteworthy points during that exercise:
-* Python is a lot faster than Perl (what happened? Perl was supposed to be the go-to language for text 
+* Python is a lot faster than Perl (what happened? Perl was supposed to be the go-to language for text processing?)
 * The compile time of C++ sucks - even for such a trivial program
 * Rust made great progress - both in terms of runtime and compile time performance
 * Although Perl 6 / Rakudo has made great progress to catch up in terms of performance in recent years and it is a beautyful language, the runtime is still abysmal

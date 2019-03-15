@@ -41,7 +41,7 @@ There were a few noteworthy points during that exercise:
 * C for the win!
 
 All examples were tested on Ubuntu 18.04, the used compilers / interpreters were:
-* C:      gcc 7.3.0 (uses glibc GHashTable and GArray)
+* C:      gcc 7.3.0 (uses gnome glib GHashTable and GArray)
 * C++:    clang++ 7.0.0
 * Rust:   rustc 1.35.0-nightly
 * D:      ldc2 1.15.0-beta1

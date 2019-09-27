@@ -12,7 +12,7 @@ int main(int argc, char **argv) {
 	std::unordered_map<std::wstring, std::vector<std::wstring>> anagram;
 	std::wstring line, sorted;
 	assert(ifs.good());
-	while (!std::getline(ifs, line).eof()) {
+	while (std::getline(ifs, line)) {
 		std::transform(line.begin(), line.end(), line.begin(), std::towlower);
 		sorted = line;
 		std::sort(sorted.begin(), sorted.end());

@@ -10,7 +10,7 @@ C++ in my project, so I included that as well, just for fun.
 The goal of this experiment was to implement the same anagram algorithm in various
 languages to compare compile and runtimes, executable sizes and expressivenes.
 
-In terms of raw performance, nothing beats C: runtime, code size, compile time.
+In terms of raw performance, nothing beats C: runtime, binary size, compile time.
 C++ and Rust come somewhat close. The performance of D varies widely depending
 on the used compiler, dmd and gdc produce more or less equally slow code, while
 ldc2 takes the lead of the D compilers.
